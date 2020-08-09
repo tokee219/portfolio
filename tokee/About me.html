@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About me</title>
+	<link rel="stylesheet" type="text/css" href="about me.css">
+	<meta name="viewport" content="width=device-width,intial scale=1">
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://www.w3schools.com/lib/w3.css">
+</head>
+<body>
+	<div class="toggle">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<div class="container">
+		<div class="header">
+			<div class="navbar">
+				<a href="tokee.html">Home</a>
+				<a href="About me.html">About me</a>
+				<a href="contact.html">Contact me</a>
+				<a href="package.html">My package</a>
+			</div>
+			<div class="head-content">
+			<h2 class="A"><b>About me</b></h2>
+
+			<p class="dec">Hey,
+My name is Arfan Tokee. I'm from Bangladesh. From my childhood I had a fascination about softwares and web sites.  I learned web design from this attraction.  Although I am not very experienced in this field but one of your opportunities can make me experienced.  I will get the benefit and opinion of my client.
+Thinking about everything, I will do my best to do your job properly with very little pay. </p>
+<img class="toke-img"   src="profile.jpg">
+
+			</div>
+		</div>
+	</div>
+   
+
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".toggle").click(function(){
+			$(".navbar").slideToggle()
+		});
+
+		$(window).resize(function(){
+			if($(window).width()>768)
+			{
+				$('.navar').show;
+			}
+			else
+			{
+				$('.navar').hide();
+			}
+		});
+	});
+</script>
+</html>

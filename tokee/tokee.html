@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arfan Tokee</title>
+	<link rel="stylesheet" type="text/css" href="tokee.css">
+	<meta name="viewport" content="width=device-width,intial scale=1">
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://www.w3schools.com/lib/w3.css">
+</head>
+<body>
+	 <div class="toggle">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+<div class="container">
+	<div class="header">
+		<div class="navbar">
+			<a href="tokee.html">Home</a>
+			<a href="About me.html">About me</a>
+			<a href="contact.html">Contact me</a>
+			<a href="package.html">My package</a>
+			
+		</div>
+		<div class="head-content">
+			<p class="A">Welcome to my site </p>
+			<p class="dec"> Build your website</p>
+			<p class="dec"> Make amazing landing pages to promote your products</p>
+			<p class="dec">Make your personal portfolio and be smart  </p>
+		</div>
+	</div>
+	<div class="about">
+			<h2>About me</h2>
+			<p>My name is Arfan Tokee. I'm from Bangladesh. From my childhood I had a fascination about softwares and web sites.  I learned web design from this attraction.  Although I am not very experienced in this field but one of your opportunities can make me experienced.  I will get the benefit and opinion of my client.
+			Thinking about everything, I will do my best to do your job properly with very little pay.</p>
+		</div><br>
+		<div class="skills">
+			<h2>Skills</h2>
+			<img src="html.jpg">
+			<img src="css.jpg">
+			<img src="ps.jpg">
+	
+		</div>
+		
+			<div class="copy">
+				Arfan tokee 2020-22
+			</div>
+		</div> 
+</div>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".toggle").click(function(){
+			$(".navbar").slideToggle()
+		});
+
+		$(window).resize(function(){
+			if($(window).width()>768)
+			{
+				$('.navar').show;
+			}
+			else
+			{
+				$('.navar').hide();
+			}
+		});
+	});
+</script>
+</html>

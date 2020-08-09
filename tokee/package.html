@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My package</title>
+	<meta name="viewport" content="width=device-width,intial scale=1">
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://www.w3schools.com/lib/w3.css">
+	<link rel="stylesheet" type="text/css" href="package.css">
+</head>
+<body>
+	 <div class="toggle">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+<div class="container">
+	<div class="header">
+		<div class="navbar">
+			<a href="tokee.html">Home</a>
+			<a href="about me.html">About me</a>
+			<a href="contact.html"> Contact me</a>
+			<a href="package.html">My package</a>
+			
+		</div>
+		<div class="content">
+			<table width="700px" border="2px" cellpadding="20px" class="table">
+				<caption style="color:white; font-size: 20px;"> My packages</caption>
+				<br>
+				<h2 style="color: white; font-size: 20px">For oder please contact my gmail :- arfantokee072@gmail.com</h2>
+
+				<tr>
+					<th>Package Name</th>
+					<th> Prize</th>
+				</tr>
+				<tr>
+					<td> Simple Web page design</td>
+					<td>$20</td>
+				</tr>
+				<tr>
+					<td>Landing page design</td>
+					<td>$50</td>
+				</tr>
+				<tr>
+				  <td>Static website design</td>
+				  <td>$100</td>
+				</tr>
+				<tr>
+					<td>Make website with Html & Css</td>
+					<td>$200</td>
+				</tr>
+				<tr>
+					<td>portfolio website design</td>
+					<td>$150</td>
+				</tr>
+			</table>
+			<h2 style="color: white; font-size: 20px">For oder please contact my gmail :- arfantokee072@gmail.com</h2>
+		</div>
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".toggle").click(function(){
+			$(".navbar").slideToggle()
+		});
+
+		$(window).resize(function(){
+			if($(window).width()>768)
+			{
+				$('.navar').show;
+			}
+			else
+			{
+				$('.navar').hide();
+			}
+		});
+	});
+</script>
+</html>

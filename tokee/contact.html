@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	Contact me </title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<meta name="viewport" content="width=device-width,intial scale=1">
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://www.w3schools.com/lib/w3.css">
+</head>
+<body>
+	 <div class="toggle">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+<div class="container">
+	<div class="header">
+		<div class="navbar">
+			<a href="tokee.html">Home</a>
+			<a href="About me.html">About me</a>
+			<a href="contact.html">Contact me</a>
+			<a href="package.html">My package</a>
+			
+		</div>
+		<div class="content"> 
+		<h2> My  contact info </h2>
+		<p>	Gmail:- arfantokee072@gmail.com </p>
+		<p>	Phone:- 018********</p>
+		<p>	facebook:- https://www.facebook.com/arfan.tokee.1/</p>
+		<p>twitter:- https://twitter.com/ArfanTokee</p>
+		<p>linkdin:- https://www.linkedin.com/in/a-repository-66396a1a6/</p>
+		<p> i suggest you to contact me in facebook and gmail </p>
+		</div>	
+	</div>
+</div>
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".toggle").click(function(){
+			$(".navbar").slideToggle()
+		});
+
+		$(window).resize(function(){
+			if($(window).width()>768)
+			{
+				$('.navar').show;
+			}
+			else
+			{
+				$('.navar').hide();
+			}
+		});
+	});
+</script>
+
+</html>

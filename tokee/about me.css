@@ -1,0 +1,105 @@
+body{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	background: url(black.jpg);
+	height: 200vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.navbar{
+	text-align: center;
+	padding: 20px;
+}
+.navbar a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	font-family: Tahoma;
+	margin-right: 80px;
+	padding: 10px;
+	border:2px solid transparent;
+	transition: 0.3s;
+}
+.navbar a:hover{
+	background:#000;
+	border: 2px solid #fff;
+}
+.A{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	transition: 0.3s;
+	cursor: pointer;
+
+}
+.dec{
+	color: white;
+	font-size: 30px;
+	margin: 30px;
+	transition: 0.3s;
+	cursor: pointer;
+
+}
+.A:hover{
+	color:red;
+}
+.dec:hover{
+	color: red;
+}
+.toke-img{
+	height: 200px;
+    width: 273px;
+    text-align: center;
+    margin-left: 540px;
+    border-radius:50%; 
+    }
+    .toggle{
+	width: 30px;
+	padding: 10px;
+	float: right;
+	background:gray;
+	border-radius: 10px;
+	margin: 6px;
+	display: none;
+	cursor: pointer;
+}
+
+.toggle span{
+	height: 4px;
+	width:100%;
+	background-color: #fff;
+	display: block;
+	margin-bottom: 3px;
+}
+
+
+@media(max-width: 768px)
+{
+	.toggle{
+		display: block;
+		position: fixed;
+	}
+	.navbar{
+		display: none;
+	}
+	.navbar a{
+		display: block;
+		text-align: center;
+		padding: 10px;
+	}
+	.tokee-img{
+
+		margin-left: 191px;
+	}
+}
+@media (max-height: 350px)
+{
+	.head-content {
+		width: 90%;
+	}
+}
